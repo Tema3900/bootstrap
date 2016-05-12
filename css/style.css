@@ -42,10 +42,9 @@
 .images-bottom {
 
     position: relative;
-    margin: 25px 0;
+    margin-top: 25px;
     border: 1px solid #ddd;
     border-radius: 5px;
-
 }
 
 .money {
@@ -65,6 +64,9 @@
 }
 .bottom-banners-text {
     padding: 10px;
+}
+.bottom-text {
+    margin-top: 25px;
 }
 hr {
     border-top: 1px solid #ddd;
