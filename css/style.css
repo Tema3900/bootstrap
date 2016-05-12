@@ -1,40 +1,22 @@
-.fixed-navbar-items {
-    list-style: none;
-    float: left;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    line-height: 20px;
-}
-.fixed-navbar-items > li {
-    float: left;
 
-    padding: 15px;
-}
-.fixed-navbar-items > li > a {
-    color: #9d9d9d;
-    text-decoration: none;
-}
-.fixed-navbar-items > li > a:hover {
-    color: #ffffff;
-}
 .left-block {
     position: relative;
     top: 50px;
 
 }
 .right-block {
-
     position: relative;
     top: 50px;
-}
-body > div.container > .left-block {
     margin: 15px 0;
 }
-body > .container > .left-block .left-block-title {
+.bottom-banner> .images-bottom > img {
+    width: 100%;
+}
+
+.left-block-title {
     margin: 20px 0;
 }
-body > .container > .left-block > div > a {
+.left-block-categories > a {
     display: block;
     position: relative;
     border: 1px solid #ddd;
@@ -44,122 +26,54 @@ body > .container > .left-block > div > a {
     margin-bottom: -1px;
     font-size: 16px;
 }
-body > .container > .left-block > div > a:hover {
+.left-block-categories > a:hover {
     background-color: #dddddd;
 }
-body > .container > .left-block > div > a:first-child {
+.left-block-categories > a:first-child {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-body > .container > .left-block > div > a:last-child {
+.left-block-categories > a:last-child {
     margin-bottom: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.bottom-banners {
-    position: relative;
-}
-.bottom-banner {
-    width: 100%;
 
+.images-bottom {
+
+    position: relative;
     margin: 25px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
 
 }
-.bottom-banners img {
-    width: 100%;
-}
-.bottom-banners .money {
+
+.money {
     float: right;
 }
 
-.right-block .bottom-banners .title > a {
+.bottom-banner .title > a {
     text-decoration: none;
     font-size: 18px;
 }
-.right-block .bottom-banners .rating > p {
+.bottom-banner .rating > p {
     margin: 0;
     color: #b5002b;
 }
-.right-block .bottom-banners .rating .reviews {
+.rating .reviews {
     float: right;
 }
-.right-block .bottom-banners .bottom-banners-text {
+.bottom-banners-text {
     padding: 10px;
 }
 hr {
     border-top: 1px solid #ddd;
     position: relative;
-    top:100px;
+    top:40px;
 }
 .footer {
     position: relative;
-    top: 150px;
+    top: 100px;
     margin-bottom: 50px;
 }
 
-
-@media all and (max-width:768px) {
-    .fixed-navbar-items {
-       display: none;
-   }
-    .dropdown {
-        float: right;
-        margin: 8px 15px 8px;
-    }
-    .dropdown-menu {
-        right: 0;
-        left: auto;
-    }
-    .btn-default {
-        background-color: transparent;
-    }
-    .glyphicon-menu-hamburger {
-        color: #fff;
-        text-align: center;
-        vertical-align: middle;
-    }
-    .left-block {
-        width: 100%;
-        float: none;
-    }
-    .right-block {
-        width: 100%;
-        float: none;
-    }
-
-}
-@media all and (min-width:768px){
-    .dropdown {
-        display: none;
-    }
-    .bottom-banner {
-        width: 31.33333%;
-        float: left;
-        margin: 3% 1% 0;
-    }
-    .bottom-banners {
-        margin-left: -1%;
-        margin-right: -1%;
-    }
-    .bottom-text {
-        width: 31.33333%;
-        float: left;
-        margin-left: 1%;
-    }
-}
-@media all and (min-width:992px){
-    .left-block {
-        width: 28%;
-        float: left;
-        padding: 0 28px 0 0;
-    }
-    .right-block {
-        position: relative;
-        top: 70px;
-        width: 72%;
-        float: left;
-        padding: 0 0 0 28px;
-    }
-}
